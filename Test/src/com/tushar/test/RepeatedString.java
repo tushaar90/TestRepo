@@ -7,10 +7,18 @@ public class RepeatedString {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		String name1 = "abc";
-		int l = 10-(name1.length());
-		String repeated = new String(new char[l]).replace("\0", name1);
+		
+		String repeated = new String(new char[2]).replace("\0", name1);
+		
 		System.out.println(repeated);
-		System.out.println(l);
+		/*for(int i=0;i<name1.length();i++) {
+			char c = name1.charAt(i);	
+			String s = Character.toString(c);
+			System.out.println(name1.concat(s));
+		}*/
+		
+		
+		
 
 	}
 
