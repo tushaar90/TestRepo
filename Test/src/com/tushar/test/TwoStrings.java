@@ -21,11 +21,7 @@ public class TwoStrings {
 			set2.add(c);
 		}
 		set1.retainAll(set2);
-		/*if(set1.size()>0) {
-			return "Yes";
-		}
-		return "No";*/
-
+		System.out.println(set1);
 	}
 
 }
